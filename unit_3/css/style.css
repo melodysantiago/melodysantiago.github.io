@@ -17,7 +17,6 @@ nav {
 #hero {
     text-align: center;
     background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.15)),url(images/teddy.jpg);
-    background-size: cover;
     background-position: center;
     font-family: verdana;
     height: 300px;
