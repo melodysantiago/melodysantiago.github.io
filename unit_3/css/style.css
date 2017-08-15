@@ -21,6 +21,7 @@ nav {
     background-position: center;
     font-family: verdana;
     height: 200px;
+    vertical-align: middle;
 }
 h1, h3 {
 	color: #FFFFFF;
