@@ -20,8 +20,8 @@ nav {
     background-size: cover;
     background-position: center;
     font-family: verdana;
-    height: 200px;
-    vertical-align: middle;
+    height: 300px;
+    vertical-align: text-bottom;
 }
 h1, h3 {
 	color: #FFFFFF;
