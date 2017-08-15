@@ -21,7 +21,8 @@ nav {
     background-position: center;
     font-family: verdana;
     height: 300px;
-    vertical-align: text-bottom;
+    position:absolute;
+  transform: translateX(-50%) translateY(-50%);
 }
 h1, h3 {
 	color: #FFFFFF;
