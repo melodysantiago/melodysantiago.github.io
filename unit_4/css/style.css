@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Amatica+SC|Zilla+Slab+Highlight');
+
+div {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 16px;
+}
+.logo {	
+	font-size: 22px;
+}
+nav {
+	text-align: right;
+	font-size: 2em;
+	font-family: 'Amatica SC', bold;
+	text-transform: uppercase;
+
+}
+section {	
+	text-align: center;
+	background: url("images/teddy.jpg");
+	background-size: cover ; 
+	background-position: top left;
+	font-family: 'Amatica SC', bold;
+	font-size: 2em;
+}
+
+h1, h3 {
+	color: #FFFFFF;
+
+}
+p {
+	color: initial;
+	font-size: 16px;
+}
+.products {
+	
+}
