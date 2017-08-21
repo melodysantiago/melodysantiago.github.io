@@ -6,6 +6,7 @@ div {
 }
 .logo {	
 	font-size: 22px;
+	text-align: center;
 }
 nav {
 	text-align: right;
@@ -14,11 +15,10 @@ nav {
 	text-transform: uppercase;
 
 }
-section {	
+#hero {	
 	text-align: center;
-	background: url("images/teddy.jpg");
-	background-size: cover ; 
-	background-position: top left;
+	background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.15)),url(images/teddy.jpg);
+    background-position: center;
 	font-family: 'Amatica SC', bold;
 	font-size: 2em;
 }
