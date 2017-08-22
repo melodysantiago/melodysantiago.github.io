@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Amatica+SC|Zilla+Slab+Highlight');
-
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 div {
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 16px;
@@ -21,8 +25,16 @@ nav {
     background-position: center;
 	font-family: 'Amatica SC', bold;
 	font-size: 2em;
+	height: 25vw;
+	position: relative;
 }
-
+#hero h3 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 100%;
+}
 h1, h3 {
 	color: #FFFFFF;
 
