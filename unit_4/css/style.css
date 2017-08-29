@@ -1,31 +1,51 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Amatica+SC|Zilla+Slab+Highlight');
 *{
-	margin: 0;
-	padding: 0;
+	margin: 10px;
 	box-sizing: border-box;
 }
-div {
-	font-family: 'Josefin Sans', sans-serif;
-	font-size: 16px;
-}
-.logo {	
-	font-size: 22px;
-	text-align: center;
+body {
+	padding: 10px;
 }
 nav {
 	text-align: right;
 	font-size: 2em;
 	font-family: 'Amatica SC', bold;
 	text-transform: uppercase;
-
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
 }
+.wrapper {
+	font-family: 'Josefin Sans', sans-serif;
+}
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px; 
+}
+div {
+	font-size: 16px;
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+section {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+.logo {	
+	font-size: 22px;
+	text-align: center;
+}
+
 #hero {	
 	text-align: center;
 	background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.15)),url(images/teddy.jpg);
     background-position: center;
 	font-family: 'Amatica SC', bold;
 	font-size: 2em;
-	height: 25vw;
+	height: 30vw;
 	position: relative;
 }
 #hero h3 {
@@ -37,12 +57,40 @@ nav {
 }
 h1, h3 {
 	color: #FFFFFF;
-
+}
+article {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
 }
 p {
 	color: initial;
 	font-size: 16px;
 }
-.products {
+a {
+	margin: 0 auto;
+}
+ul {
 	
+}
+.products {
+	margin: 0 auto;
+}
+figure{
+	height: 28vh;
+	width: 28vh;
+	display: inline-block;
+	text-align: center;
+
+}
+img.scaled {
+	width: 100%;
+}
+
+footer {
+	text-align: center;
+	padding: 1em 0;
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
 }
