@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Amatica+SC|Zilla+Slab+Highlight');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 16px; 
+	padding: 1%;
+}
+
+
+.logo {	
+	width: 100%;
+	max-width: 125px;
+	margin: 0 auto;
+	display: block;
+}
+nav {
+	text-align: center;
+	font-size: 2em;
+	font-family: 'Amatica SC', bold;
+	text-transform: uppercase;
+	padding-top: 0.4em;
+	padding-bottom: 0.4em;
+}
+nav a {
+	text-decoration: none;
+	color: #7F6B63;
+	font-weight: 700;
+}
+
+.wrapper {
+	
+}
+
+.navlink {
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+.navlink:hover {
+	background-color: #FFD7C8;
+}
+.headersection {
+	width: 33.33%;
+	float: left;
+}
+.socialcontainer {
+	height: 120px;
+	transform: translate(-0%,-40%);
+
+}
+ .socialcontainer li {
+    display: inline-block;
+}
+.logocontainer li{
+
+}
+.profilecontainer {
+	height: 120px;
+	transform: translate(-0%, -25%);
+
+}
+ .profilecontainer li {
+    display: inline-block;
+}
+
+.sociallink {
+	width: 30px;
+	display: block;
+	float: left;
+	padding-top: 90px;
+
+}
+.sociallink svg {
+	display: block;
+	width: 100%;
+}
+
+.shoppingcart {
+	width: 20%;
+	display: block;
+	float: right;
+	padding-top: 80px;
+	padding-right: 15px;
+}
+
+
+.shoppingcart a {
+
+		width: 100%;
+	}
+
+.shoppingcart img {
+		width: 26px;
+		display: block; 
+	}
+}
+#search {
+	display: inline-block;
+	background-color: pink; 
+	padding: 20px;
+	}
+#searchcontainer {
+	display: block;
+	transform: translate(-0%,100%);
+	columns: white;
+}
+
+
+#hero {	
+	text-align: center;
+	background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.15)),url(images/kids.jpg) no-repeat
+	center center;
+	font-family: 'Amatica SC', bold;
+	font-size: 2em;
+	height: 35vw;
+	position: relative;
+	background-size: 100% auto;
+}
+#hero h3{
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 100%;
+}
+
+#hero h5{
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 100%;
+}
+#hero h6{
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 20%;
+	border: 1px white solid;
+	padding: 20px;
+	color: #FFFFFF;
+}
+#hero img{
+	position: absolute;
+		top: 70%;
+		left: 55%;
+}
+
+h1, h3, h4, h5 {
+	color: #FFFFFF;
+}
+
+p {
+	color: initial;
+}
+
+ul {
+	padding: 0.5em;
+	margin: 1em;
+	padding: 0;
+}
+
+article {
+	padding: 1.5em;
+
+}
+
+#products figure {
+width: 20%; 
+float: left;
+height: 100%;
+overflow: hidden;
+text-align: center;
+}
+
+#products img{
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	padding: 1%;
+}
+#products a{
+	text-decoration: none;
+	color: #FFD7C8;
+	top: 70%;
+	left: 50%;
+	
+} 
+.emailcontainer {
+	display: block;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	font-size: 0;
+	display: block;
+	clear: both;
+	content: "";
+}
+
+a {
+	margin: 0 auto;
+}
+
+footer {
+	text-align: center;
+	padding: 1em 0;
+}
+.hamburger {
+	display: none;
+}
+@media screen and (max-width: 1024px) {
+
+
+	body {
+		font-size: 14px;
+	}
+
+	.navlink {
+		background-color: #7F6B63;
+		color: #FFD7C8;
+		border-radius: 5px;
+		border: 1px solid white;
+		display: block;
+		text-align: center; 
+		margin: 0;
+	}
+
+}
+@media screen and (max-width: 375px) {
+	.hamburger {
+		display: block;
+		width: 20px;
+		height: 20px;
+		background-color: gray;
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+	.headersection {
+	width: 100%;
+}
+	.socialcontainer {
+	display: none;
+	}
+
+	.profilecontainer {
+		width: 100%;
+			height: 25px;
+		transform: translate(0%, 0%);
+	}
+	.profilecontainer li {
+
+	}
+	.shoppingcart {
+		padding-top: 0;
+		float: left;
+		width: 50%;
+
+	}
+.shoppingcart a {
+
+		width: 20px;
+	}
+.shoppingcart img {
+		width: 20px;
+		margin: 0 auto;
+	}
+.navcontainer {
+	display: none;
+}
+	.navlink {
+		float: none;
+		width: 100%;
+		font-size: 20px;
+	}
+	#hero {
+		float: none;
+	}
+	.herotext {
+		display: none;
+	}
+	#searchcontainer {
+		display: none;
+	}
+	#products figure {
+	width: 100%; 
+	float: none;
+	height: 100%;
+	overflow: hidden;
+	text-align: center;
+}
+
+}
+
+
